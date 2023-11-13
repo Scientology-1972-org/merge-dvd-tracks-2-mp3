@@ -11,7 +11,8 @@ When you rip an audio CD or DVD you often end up with a dozen files called track
 
 1. Create a temporary folder.
 2. Place the .sh script there.
-3. Copy the ripped audio content into a subfolder near this script. (Make a copy! Not move the files completely!) *It's ok to keep all audios in sub-sub-folders. Just try to copy-paste what you currently have without any extra actions.
+3. Copy the ripped audio content into a subfolder near this script. (Make a copy! Not move the files completely!) 
+*It's ok to keep all audios in sub-sub-folders. Just try to copy-paste what you currently have without any extra actions.*
 4. `bash aiff-merge-sox-with-renamer.sh /path-to-folder/your-audio/`.
 5. Extract the merged audios from /path-to-folder/your-audio/output
 
