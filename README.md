@@ -1,7 +1,7 @@
 # merge-ripped-CD-audio-tracks on Linux
 When you rip an audio CD or DVD you often end up with a dozen files called tracks. This script merges them into one audio file.
 
-![image](https://github.com/Scientology-1972-org/merge-dvd-tracks-2-mp3/assets/130282111/0f368979-a167-4545-9d98-19bf7d0c2cbc)
+![image](https://github.com/Scientology-1972-org/merge-dvd-tracks-2-mp3/assets/130282111/776ac83e-b01d-4886-800b-c188e34fcf83)
 
 - Tested on Manjaro Linux.
 - Should also work on the Ubuntu family.
