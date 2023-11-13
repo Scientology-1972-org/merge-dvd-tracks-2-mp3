@@ -15,9 +15,7 @@ When you rip an audio CD or DVD you often end up with a dozen files called track
 3. `bash aiff-merge-sox-with-renamer.sh /path-to-folder/your-audio/`
 4. Take out merged audios from /path-to-folder/your-audio/output
 
-And he will make an output folder inside that path with files to be processed.
-
-He will parse all files from sub-folders too! You can keep all named audios as folders, containing lists of audio files (01Track.aiff, 02Track.aiff etc.) to be merged. And he will grab all files from sub-folders and put the name of each folder to generated outputely-merged audio file.
+Script do parce all the files from sub-folders too! You can keep all audios as named folders, containing lists of audio files (01Track.aiff, 02Track.aiff etc.) inside that folders. And script grab all files from sub-folders and put the name of each folder to generated outputely-merged audio file.
 
 ! Renamer included as a confirmation dialog inside script, he is preparing tracks for proper sorting for cases where names started with digits like «01-Track.mp3» and he allowing not to mix it by sorting with track like «10-Track.mp3»
 
