@@ -17,7 +17,7 @@ When you rip an audio CD or DVD you often end up with a dozen files called track
 
 Script do parce all the files from sub-folders too! You can keep all audios as named folders, containing lists of audio files (01Track.aiff, 02Track.aiff etc.) inside that folders. And script grab all files from sub-folders and put the name of each folder to generated outputely-merged audio file.
 
-! Renamer included as a confirmation dialog inside script, he is preparing tracks for proper sorting for cases where names started with digits like «01-Track.mp3» and he allowing not to mix it by sorting with track like «10-Track.mp3»
+! Renamer included as a confirmation dialog inside script, he is preparing tracks for proper sorting for cases where names started with digits like «01-Track.mp3» and he allowing not to mix it by sorting with track like «10-Track.mp3». You can skip this step selecting N as a reply on confirmation stage.
 
 # Aiff to MP3 convertion:
 - **aiff-to-mp3.sh**
