@@ -10,10 +10,10 @@ When you rip an audio CD or DVD you often end up with a dozen files called track
 - mp3 format with **mp3-merge-ffmpeg-with-renamer.sh** / **mp3-merge-cat.sh** (without input track renamer)
 
 1. Create a temporary folder.
-2. Place the .sh script there 
+2. Place the .sh script there.
 2.1. Copy the ripped audio content into a subfolder near this script. (Make a copy! Not move the files completely!) *It's ok to keep all audios in sub-sub-folders. Just try to copy-paste what you currently have without any extra actions.
-3. `bash aiff-merge-sox-with-renamer.sh /path-to-folder/your-audio/`.
-4. Extract the merged audios from /path-to-folder/your-audio/output
+4. `bash aiff-merge-sox-with-renamer.sh /path-to-folder/your-audio/`.
+5. Extract the merged audios from /path-to-folder/your-audio/output
 
 The script will process all files from subfolders too! You can keep all audios as named folders containing lists of audio files (01Track.aiff, 02Track.aiff etc.) inside these folders. And script will grab all files from sub-folders and put the name of each folder to the generated output merged audio file.
 
