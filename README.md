@@ -4,7 +4,7 @@ When you rip an audio CD or DVD you often end up with a dozen files called track
 - Tested on Manjaro Linux.
 - Should work on Ubuntu-family too.
 
-# usage:
+## usage:
 
 - aiff format with **aiff-merge-sox-with-renamer.sh**,
 - 
