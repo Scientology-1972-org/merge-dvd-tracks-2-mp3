@@ -7,7 +7,8 @@ When you rip an audio CD or DVD you often end up with a dozen files called track
 ## Usage:
 
 - aiff format with **aiff-merge-sox-with-renamer.sh**,
-- mp3 format with **mp3-merge-ffmpeg-with-renamer.sh** / **mp3-merge-cat.sh** (without input track renamer)
+- mp3 format with **mp3-merge-ffmpeg-with-renamer.sh**
+- **mp3-merge-cat.sh** (without input track order fixing as temporary renaming algorhytm)
 
 1. Create a temporary folder.
 2. Place the .sh script there.
