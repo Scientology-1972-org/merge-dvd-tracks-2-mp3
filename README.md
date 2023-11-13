@@ -6,8 +6,8 @@ When you rip an audio CD or DVD you often end up with a dozen files called track
 
 # usage:
 
-- aiff format for merging with aiff-script-name,
-- mp3 format with mp3-named script.
+- aiff format with **aiff-merge-sox-with-renamer.sh**,
+- 
 
 1. Create a temporary folder.
 2. Place there .sh script 
@@ -20,3 +20,10 @@ And he will make an output folder inside that path with files to be processed.
 He will parse all files from sub-folders too! You can keep all named audios as folders, containing lists of audio files (01Track.aiff, 02Track.aiff etc.) to be merged. And he will grab all files from sub-folders and put the name of each folder to generated outputely-merged audio file.
 
 ! Renamer included as a confirmation dialog inside script, he is preparing tracks for proper sorting for cases where names started with digits like «01-Track.mp3» and he allowing not to mix it by sorting with track like «10-Track.mp3»
+
+
+# Aiff to MP3 convertion:
+- **aiff-to-mp3.sh**
+
+1. Samely principle: `bash aiff-to-mp3.sh /path-to-aiff-content/`
+2. Take out result from path-to-aiff-content/output
