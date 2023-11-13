@@ -21,7 +21,6 @@ He will parse all files from sub-folders too! You can keep all named audios as f
 
 ! Renamer included as a confirmation dialog inside script, he is preparing tracks for proper sorting for cases where names started with digits like «01-Track.mp3» and he allowing not to mix it by sorting with track like «10-Track.mp3»
 
-
 # Aiff to MP3 convertion:
 - **aiff-to-mp3.sh**
 
