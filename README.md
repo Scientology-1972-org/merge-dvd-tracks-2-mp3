@@ -1,19 +1,22 @@
-# merge-dvd-tracks-2-mp3
+# merge-ripped-CD-audio-tracks
 When you rip an audio CD or DVD you often end up with a dozen files called tracks. The script will merge these into one audio-file.
 
-aiff format for merging.
+- Tested on Manjaro Linux.
+- Should work on Ubuntu-family too.
 
 # usage:
 
-bash aiff-merge-sox-with-renamer.sh /path/to/folder/
+- aiff format for merging with aiff-script-name,
+- mp3 format with mp3-named script.
 
-and he will put an output folder inside that path.
+1. Create a temporary folder.
+2. Place there .sh script 
+2.1. Copy the ripped audio content in sub-folder near this script. (make a copy! Not complete move the files!) *It's ok to keep all audios into sub-sub folders. Just try to copy-paste what you currently have without any extra-actions.*
+3. `bash aiff-merge-sox-with-renamer.sh /path-to-folder/your-audio/`
+4. Take out merged audios from /path-to-folder/your-audio/output
 
-He will parse all files from sub-folders too! You can put all lectures as folders, containing lists of audio files (01Track.aiff, 02Track.aiff etc.) to be merged. And he will grab all files from sub-folders and put the name of each folder to generated output-merged audio file.
-(Renamer included as a confirmation dialog inside script, he is making proper sorting for file names started with digits like 01Track.mp3 and he allowing not to mix it by sorting with track like 10Track.mp3)
+And he will make an output folder inside that path with files to be processed.
 
-p.s.
+He will parse all files from sub-folders too! You can keep all named audios as folders, containing lists of audio files (01Track.aiff, 02Track.aiff etc.) to be merged. And he will grab all files from sub-folders and put the name of each folder to generated outputely-merged audio file.
 
-aiff-to-mp3 converter script - included as 2nd script in archive.
-
-samely for mp3, but without renamer, haven't chance to update it yet
+! Renamer included as a confirmation dialog inside script, he is preparing tracks for proper sorting for cases where names started with digits like «01-Track.mp3» and he allowing not to mix it by sorting with track like «10-Track.mp3»
