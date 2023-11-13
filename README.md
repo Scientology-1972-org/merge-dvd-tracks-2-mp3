@@ -24,6 +24,6 @@ The script will process all files from subfolders too! You can keep all audios a
 # Aiff to MP3 Conversion:
 - **aiff-to-mp3.sh**.
 
-1. Same principle: `bash aiff-to-mp3.sh /path-to-aiff-content/'.
+1. Same principle: `bash aiff-to-mp3.sh /path-to-aiff-content/`
 2. Take the result from path-to-aiff-content/output
 
