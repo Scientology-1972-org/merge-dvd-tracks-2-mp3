@@ -6,7 +6,7 @@ When you rip an audio CD or DVD you often end up with a dozen files called track
 
 ## Usage:
 
-- aiff format with **aiff-merge-sox-with-renamer.sh**, (doing temporary rename for proper ordering of digit-names of files)
+- aiff format with **aiff-merge-sox-with-renamer.sh**, (doing temporary rename for proper ordering of digit-names in files (like 01.mp3 to avoid misorder with 10.mp3)
 - mp3 format with **mp3-merge-ffmpeg-with-renamer.sh**, (same for mp3)
 - **mp3-merge-cat.sh**, (without input track ordering fix by renaming algorhytm)
 - **mp3merge.sh**, (just basic script without putting a names from folders to output files)
