@@ -1,6 +1,8 @@
 # merge-ripped-CD-audio-tracks on Linux
 When you rip an audio CD or DVD you often end up with a dozen files called tracks. This script merges them into one audio file.
 
+![image](https://github.com/Scientology-1972-org/merge-dvd-tracks-2-mp3/assets/130282111/0f368979-a167-4545-9d98-19bf7d0c2cbc)
+
 - Tested on Manjaro Linux.
 - Should also work on the Ubuntu family.
 
@@ -24,3 +26,4 @@ The script will process all files from subfolders too! You can keep all audios a
 
 1. Same principle: `bash aiff-to-mp3.sh /path-to-aiff-content/'.
 2. Take the result from path-to-aiff-content/output
+
