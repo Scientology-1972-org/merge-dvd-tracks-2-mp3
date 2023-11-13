@@ -1,4 +1,4 @@
-# merge-ripped-CD-audio-tracks
+# merge-ripped-CD-audio-tracks on Linux
 When you rip an audio CD or DVD you often end up with a dozen files called tracks. The script will merge these into one audio-file.
 
 - Tested on Manjaro Linux.
