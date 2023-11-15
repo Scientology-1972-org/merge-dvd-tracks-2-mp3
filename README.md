@@ -24,9 +24,10 @@ The script will process all files from subfolders too! You can keep all audios a
 
 ! Renamer included as a confirmation dialog inside script, it prepares tracks for proper sorting for cases where names started with digits like "01-Track.mp3" and it allows not to mix it by sorting with track like "10-Track.mp3". You can skip this step by selecting N as answer at the confirmation stage.
 
-# Aiff to MP3 Conversion:
-- **aiff-to-mp3.sh**.
+# Aiff/WMA to MP3 Conversion:
+- **aiff-to-mp3.sh**
+- **wma-to-mp3.sh**
 
-1. Same principle: `bash aiff-to-mp3.sh /path-to-aiff-content/`
-2. Take the result from path-to-aiff-content/output
+1. Same principle: `bash aiff-to-mp3.sh /path-to-content/`
+2. Take the result from `/path-to-content/output/`
 
